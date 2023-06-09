@@ -1,3 +1,8 @@
+# CODE FOR 2 TIER ARCHITECTURE
+
+## INCLUDES VPC, IGW, ROUTE TABLE, SUBNETS, SECURITY GROUPS, INSTANCES AND REVERSE PROXY
+
+```
 # To create a service on aws
 
 # Launch an ec2 in Ireland
@@ -319,3 +324,4 @@ resource "aws_instance" "app_instance"{
 	EOF	
 
 }
+```

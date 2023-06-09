@@ -74,8 +74,8 @@ Run ```terraform init``` to initialise terraform in the directory.
 
 Run ```terraform plan``` to check what the changes will be and if there are any errors you will receive feedback.
 
-Run ```terraform apply``` if plan passed all the checks, this will build all the infrastructure in the main.tf folder.
-Once this process has been completed. You ca check your aws webpage to see if the ec2 instance has launched.
+Run ```terraform apply``` if plan passed all the checks, this will build all the infrastructure in the main.tf file.
+Once this process has been completed. You can check your aws webpage to see if the ec2 instance has launched.
 
 If it has launched then we can run ```terraform destroy``` to terminate the instance.
 
@@ -267,12 +267,23 @@ Run ```terraform plan```:
 
 run ```terraform apply```
 
+### VPC
 ![Alt text](pics/tf%20vpc.png)
+
+### IGW
 ![Alt text](pics/tf%20igw.png)
+
+### SUBNETS
 ![Alt text](pics/tf%20subnets.png)
+
+### ROUTE TABLES
 ![Alt text](pics/tf%20subnet%20and%20association.png)
 ![Alt text](pics/tf%20edit%20routes.png)
+
+### SECURITY GROUPS
 ![Alt text](pics/tf%20sg.png)
 ![Alt text](pics/tf%20ports.png)
+
+# INSTANCES
 ![Alt text](pics/tf%20instance.png)
 ![Alt text](pics/tf%20instance%20location.png)

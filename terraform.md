@@ -12,8 +12,9 @@ Save and exit:
 
 If it says you don’t have permission still try to use this code in your command prompt 
 ```
-[Environment]::SetEnvironmentVariable("AWS_ACCESS_KEY_ID", "your-access-key", "User")
-[Environment]::SetEnvironmentVariable("AWS_SECRET_ACCESS_KEY", "your-secret-access-key", "User")
+setx AWS_ACCESS_KEY_ID "your-access-key"
+setx AWS_SECRET_ACCESS_KEY "your-secret-access-key"
+
 ```
 
 Next open your git bash terminal as admin.
